@@ -1,63 +1,156 @@
-# 목차
 
-1. [**서비스 소개**](#💌서비스-소개)
-2. [**기획 배경**](#💌기획-배경)
-3. [**개발 멤버**](#💌개발-멤버-및-일정-소개)
-4. [**기능 소개**](#💌기능-소개)
-5. [**시연 영상**](#💌시연-영상)
-6. [**기술 스택**](#💌기술-스택)
-7. [**프로젝트 일정 및 산출물**](#💌프로젝트-산출물)
-8. [**회고**](#💌회고)
-   <br/>
+
+
+# 💌 **밤 편지**
+
+
+> 당신의 하루를 위로 하는 타로카드 기반 다이어리 : 밤 편지
+
+`SSAFY_서울_10기 특화 프로젝트 : 빅데이터 추천`
+
+### 밤편지를 써 보세요 🎯
+
+- 일기를 작성하며 하루를 마무리하고 싶다면 📝
+- 하루를 공감하며 기쁨은 배로, 슬픔은 반으로 나누고 싶다면 😃 
+- 내 하루와 비슷한 하루를 보낸 다른 사람의 이야기가 궁금하다면 👩🏼‍🤝‍🧑🏾
+
+<br>
+
+`밤 편지`는 오늘 하루를 기록하고 다시 돌아볼 수 있는 `다이어리`입니다.
+
+<br>
+
+다이어리를 작성하면,
+1. 오늘 하루를 특별하게 기억할 수 있도록 타로카드 한 장을 타로카드가 나타내는 의미와 함께 제공해줍니다.
+2. 과거, 현재, 미래 카드를 기반으로 하루를 공감해주는 코멘트와 함께 미래 방향을 제시해줍니다.
+3. 나와 비슷한 하루를 보낸 다른 사람의 이야기를 볼 수 있습니다.
+
+
+<br>
 
 ---
 
-<br/>
+## 💌 주요 기능
 
-# 💌서비스 소개
+### 카카오 소셜 로그인, 메인 화면
 
-## 서비스 설명
+- 오늘 하루를 나타내는 3장의 타로카드가 표시됩니다.
+- 좌우로 스와이프하여, 이전에 작성한 다이어리를 확인할 수 있습니다.
+- 타로카드를 클릭하여, 다이어리 내용을 확인할 수 있습니다.
 
-### 개요
 
-- 서비스 명 : **`밤편지`**
-- 한줄 소개 : **`타로 카드` 컨셉의 `감성 다이어리`**
 
-### 타겟 🎯
+<img src="./assets/gif/카카오로그인.gif" width="300" alt="시연영상_01_로그인"><img src="./assets/gif/메인.gif" width="300" alt="시연영상_02_메인">
+<br><br>
 
-- 일기를 작성하며 하루를 갈무리하고 싶은 사람 📝
-- 따뜻한 말 한마디가 그리운 사람 😢
-- 오늘의 이야기를 나누고 싶은 사람 💗
 
-# 💌기획 배경
 
-## 배경
+### 타로카드 뽑기, 일기 작성
 
-오늘 하루는 어떠셨나요?
+- `밤 편지`는 과거, 현재, 미래를 나타내는 3개의 카드로 해석하는 Three Card Spread 방식을 사용합니다.
+- 과거에 쓴 일기가 없다면, 과거를 나타내는 타로카드 한 장을 뽑습니다. 
+- 일기를 작성하여 오늘 보낸 하루를 대표하는 타로카드를 한 장을 받습니다.
+- 일기를 작성한 후, 미래를 나타내는 타로카드 한 장을 뽑습니다.
+- `사연으로 공개하기`를 누르면, 다른 사람에게 내 일기가 공개될 수 있습니다.
 
-어쩌면 오늘은 새로운 도전에 첫 발을 내딛었을 수도 있고, 사랑하는 이와의 소소한 다툼으로 마음이 무거웠을 수도 있습니다. 때로는 그저 누군가의 따뜻한 말 한마디가 그리울 수도 있죠.
+<img src="./assets/gif/과거카드뽑기.gif" width="300" alt="시연영상_04_과거카드뽑기"><img src="./assets/gif/다이어리작성.gif" width="300" alt="시연영상_05_다이어리작성">
+<br><br>
 
-가끔은 누군가에게 자랑을 하고 싶기도, 위로를 받고 싶기도 해요. 하지만 나만의 내밀한 일기를 남에게 보여주는 건 언제나 떨리고 부담스러운 일이죠.
 
-`밤편지`를 받아보세요. 당신의 일상 속 작은 이야기들, 그리고 마음 깊은 곳에 숨겨둔 감정들을 타로카드와 함께 나누어보세요. 우리는 여러분의 이야기에 귀 기울이며, 공감과 위로를 전할 준비가 되어 있어요.
 
-당신이 원한다면 그 누구에게도 말하지 않아요. 마음껏 털어놓아 주세요. 오늘 당신의 이야기를 통해, 스스로를 위로하고, 또 다른 누군가와 공감의 순간을 나누어 보세요.
 
-## 목적 ☁
+<br><br>
 
-**타로 카드를 통해 하루를 되돌아 보며 위로를 받을 수 있는 서비스**
+### 하루 코멘트, 사연 추천
 
-- 일기를 꾸준하게 작성할 수 있도록 저희가 도와드릴게요.
+- 작성한 일기와 과거, 현재, 미래 3장의 타로카드로 오늘 하루를 해석해주고, 미래에 대한 방향을 제시해 줍니다.
+- 나와 비슷한 하루를 보낸 다른 사람의 사연들을 추천 받습니다.
 
-- 누구에게도 말 못할 고민이라 위로받지 못해 슬펐나요? GPT가 위로해드릴게요.
+<img src="./assets/gif/GPT코멘트.gif" width="300" alt="시연영상_06_GPT코멘트"><img src="./assets/gif/사연추천.gif" width="300" alt="시연영상_07_사연추천">
 
-- 비슷한 상황을 겪는, 혹은 비슷한 감정을 느끼는 사람들이 있을까 궁금한가요? 추천 사연을 확인해보세요.
+<br><br>
 
-# 💌개발 멤버 및 일정 소개
+---
 
-## 📆 프로젝트 기간
+## 💌 주요 기술
 
-### 24.02.19 ~ 24.04.05
+
+### 1. 포팅 매뉴얼
+
+[포팅 매뉴얼](./assets/porting-manual.md)
+<br>
+
+### 2. 시스템 아키텍쳐
+
+![architecture](./assets/image/architecture.png)
+<br>
+
+### 3. 타로카드 추천
+
+
+![타로카드추천](./assets/image/타로카드추천.JPG)
+
+
+
+- 타로카드 156장(정방향, 역방향) 각각의 의미를 나타내는 5개의 키워드로 전처리 합니다.
+- KoSBERT 모델을 이용하여 각각의 키워드를 768차원의 임베딩 벡터 값으로 나타냅니다.
+- 사용자가 입력한 일기 전처리하고, KoSBERT 모델을 이용하여 768차원의 임베딩 벡터 값으로 나타냅니다.
+- 일기와 타로카드의 키워드를 코사인 유사도를 통해 유사한 정도를 수치화 합니다. 
+- 5개의 유사도를 `평균 + 최대값`이 가장 높은 카드를 선정하여 일기를 대표하는 타로카드로 추천합니다.
+
+<br>
+
+글의 유사도를 비교하기 위해서 임베딩 벡터를 이용한 방법은 널리 사용되는 방법입니다. 반의어를 구분해야 했기 때문에 Doc2Vec 모델이 아닌
+Bert 모델을 선택하였고, 한글의 특성을 잘 살려서 학습시킨 KoSBERT 모델로 글자를 임베딩 벡터로 나타냈습니다. 이 후, 코사인 유사도 공식을 통해
+두 벡터간의 유사도를 비교하여 일기의 의미와 유사한 타로카드를 찾을 수 있었습니다.
+
+타로카드를 추천하는 과정에서, 코사인 유사도의 값들을 `평균` 과 `최대값`의 합을 이용하여 가장 유사한 의미를 갖는 타로카드를 추천했습니다.
+타로카드가 갖는 5개의 키워드의 유사도가 `평균`적으로 높다면 가장 유사하다고 생각할 수 있습니다. 
+하지만 일부 타로카드의 경우, 한 키워드만이 나타내는 상징적인 의미가 큰 키워드가 있다는 것을 발견했고,
+이를 반영하기 위해 여러 시행착오 끝에 `평균 + 최대값`을 이용하여 타로카드를 추천하였습니다. 
+
+> ref : BM-K/Sentence-Embedding-Is-All-You-Need https://github.com/BM-K/Sentence-Embedding-Is-All-You-Need
+
+
+<br>
+
+### 4. 비슷한 일기 추천
+
+
+![일기추천](./assets/image/일기추천.JPG)
+
+
+- 사용자가 작성한 일기를 KoSBERT 모델을 이용하여 768차원의 임베딩 벡터 값으로 나타냅니다.
+- ANNOY 알고리즘을 이용하여 가장 유사한 일기들을 추천합니다.
+  - 모든 일기들을 벡터로 변환하고, Tree 형태로 저장해둡니다.
+  - 작성된 일기 벡터와 유사한 일기를 ANNOY 알고리즘을 통하여 Tree에서 ID값을 찾습니다.
+  - 반환된 ID 값을 바탕으로 공개여부, 작성된 본인인지, 일기가 존재하는지 확인하여 사용자에게 제공합니다.
+
+비슷한 일기를 추천하는 방법에는 Spotify가 개발한 ANN(Approximate Nearest Neighbor) 기반의 ANNOY 알고리즘을 사용하였습니다.
+ANN 알고리즘은 정확도를 약간 포기한 대신 성능을 높이는 것에 목적을 둔 알고리즘입니다.
+그 중 ANNOY 알고리즘은 이진 트리의 구조를 갖고 있어 O(log N)의 속도로 엄청난 성능을 자랑합니다. 또한, 하이퍼 파라미터 설정에 따라
+빌드 속도를 포기하는 대신 정확성도 올릴 수 있는 구조를 갖고 있어, ANN을 대표하는 알고리즘으로 볼 수 있습니다.
+
+하지만, ANNOY 알고리즘은 데이터가 추가됨에따라 Tree를 다시 빌드해야 된다는 단점을 갖고 있습니다. 저희 Data팀은 이를 해결하고자
+HNSW(Hierarchical Navigable Small World Graphs)의 도입을 고려해봤습니다. 하지만, HNSW의 경우 파라미터 튜닝의 중요성이
+높았고, 구현 방식이 복잡하다는 단점이 있었습니다. 또한 NHN Cloud의 레퍼런스를 참고해 보았을 때, 150만건 ~ 250만건 이상의 데이터를 처리할 때 한계를 느껴 HNSW로 전환한 사례를
+찾을 수 있었습니다.  
+
+이러한 이유들로 ANNOY 알고리즘을 우선적으로 선택하였고, 추후 서비스 고도화가 필요하게 되면 HNSW로 전환하기로 결정하였습니다.
+
+
+
+> ref : ANNOY Algorithm https://github.com/spotify/annoy \
+> ref2 : NHN Cloud : NHN FORWARD 22 https://www.youtube.com/watch?si=wYvWqiYFzX5UDr6R&v=hCqF4tDPNBw&feature=youtu.be
+
+
+<br><br>
+
+---
+
+## 💌 팀원 소개
+
+### 📆 프로젝트 기간 ( 24.02.19 ~ 24.04.05 )
 
 - 기획 및 설계 : 24.02.19 ~ 24.03.10
 - 프로젝트 구현 : 24.03.11 ~ 24.04.01
@@ -65,167 +158,35 @@
 
 <br />
 
+
 <table>
     <tr>
         <td height="140px" align="center"> <a href="https://github.com/heon118">
-            <img src="https://avatars.githubusercontent.com/heon118" width="140px" /> <br><br> 👑 이승헌 <br>(Back-End) </a> <br></td>
+            <img src="https://avatars.githubusercontent.com/heon118" width="140px" /> <br><br> 이승헌  </a> <br></td>
         <td height="140px" align="center"> <a href="https://github.com/hyojin030">
-            <img src="https://avatars.githubusercontent.com/hyojin030" width="140px" /> <br><br> ⛑ 김효진 <br>(Back-End) </a> <br></td>
+            <img src="https://avatars.githubusercontent.com/hyojin030" width="140px" /> <br><br>  김효진  </a> <br></td>
         <td height="140px" align="center"> <a href="https://github.com/olrlobt">
-            <img src="https://avatars.githubusercontent.com/olrlobt" width="140px" /> <br><br> ⛑ 이승헌 <br>(Back-End) </a> <br></td>
+            <img src="https://avatars.githubusercontent.com/olrlobt" width="140px" /> <br><br>  이승헌  </a> <br></td>
         <td height="140px" align="center"> <a href="https://github.com/youngkimi">
-            <img src="https://avatars.githubusercontent.com/youngkimi" width="140px" /> <br><br> ⛑ 김영섭 <br>(Back-End) </a> <br></td>
+            <img src="https://avatars.githubusercontent.com/youngkimi" width="140px" /> <br><br>  김영섭  </a> <br></td>
         <td height="140px" align="center"> <a href="https://github.com/lainlnya">
-            <img src="https://avatars.githubusercontent.com/lainlnya" width="140px" /> <br><br> ⛑ 김예림 <br>(Front-End) </a> <br></td>
+            <img src="https://avatars.githubusercontent.com/lainlnya" width="140px" /> <br><br>  김예림 </a> <br></td>
         <td height="140px" align="center"> <a href="https://github.com/NamjunKim12">
-            <img src="https://avatars.githubusercontent.com/NamjunKim12" width="140px" /> <br><br> ⛑ 김남준 <br>(Front-End) </a> <br></td>
+            <img src="https://avatars.githubusercontent.com/NamjunKim12" width="140px" /> <br><br>  김남준  </a> <br></td>
     </tr>
     <tr>
-        <td align="center">Infra<br/>CI/CD</td>
-        <td align="center">AI/ML</td>
-        <td align="center">AI/ML<br/>Backend</td>
+        <td align="center">팀장<br>Infra</td>
+        <td align="center">Data</td>
+        <td align="center">Data<br/>Backend</td>
         <td align="center">Backend</td>
         <td align="center">Frontend</td>
         <td align="center">Frontend</td>
     </tr>
 </table>
 
-# 💌기능 소개
+<br><br>
 
-## 회원가입 및 로그인
-
-- 카카오 소셜 로그인을 활용하여 서비스에 회원가입 및 로그인을 할 수 있습니다.
-
-  ![시연영상_01_로그인](./assets/gif/카카오로그인.gif)
-
-## 메인화면
-
-- 메인 화면에서 유저가 뽑은 타로카드를 좌우로 스와이프하여 확인할 수 있습니다.
-- 타로카드를 클릭했을 때 해당 일자에 작성한 다이어리로 이동할 수 있습니다.
-- 당일에 다이어리를 작성하지 않았을 경우 '오늘의 일기 작성하기' 버튼을 통해 다이어리 작성 화면으로 이동할 수 있습니다.
-
-  ![시연영상_02_메인](./assets/gif/메인.gif)
-
-## 첫 로그인이거나, 사용 이력이 오래되었을 경우
-
-- 최초 로그인한 유저이거나, 4주 이내에 다이어리를 작성한 이력이 없는 유저라면 과거 카드를 뽑을 수 있습니다.
-
-  ![시연영상_03_로그인유저과거카드](./assets/gif/로그인후과거카드뽑기.gif)
-
-## 과거 카드 뽑기
-
-- 셔플 버튼을 통해 카드 셔플이 가능하며, 카드를 클릭해 타로를 한 장 뽑을 수 있습니다.
-- 다이어리 쓰러가기 버튼을 통해 다이어리쓰기 화면으로 이동할 수 있습니다.
-
-  ![시연영상_04_과거카드뽑기](./assets/gif/과거카드뽑기.gif)
-
-## 일기 작성 및 오늘의 카드 확인
-
-- 오늘 일기를 작성하지 않은 유저라면 일기를 작성할 수 있습니다.
-- 사연의 공개 여부를 클릭할 수 있습니다.
-- 오늘의 일기를 저장하면 일기의 감정을 분석하여 뽑힌 카드를 받을 수 있습니다.
-
-  ![시연영상_05_다이어리작성](./assets/gif/다이어리작성.gif)
-
-## OPEN AI의 하루 코멘트
-
-- 오늘 작성한 일기와 3장의 카드를 종합하여 OPEN AI가 전해준 하루의 코멘트를 받을 수 있습니다.
-
-  ![시연영상_06_GPT코멘트](./assets/gif/GPT코멘트.gif)
-
-## 사연 추천 받기
-
-- 내가 쓴 일기를 바탕으로 나와 비슷한 카드를 뽑은 사람의 사연을 추천 받을 수 있습니다.
-
-  ![시연영상_07_사연추천](./assets/gif/사연%20추천.gif)
-
-# 💌기술 스택
-
-## 1. 타로카드 추천
-
-
-![타로카드추천](./assets/image/타로카드추천.JPG)
-
-
-
-사용자가 입력한 일기를 KoSBERT 모델을 통하여 768차원의 임베딩 벡터 값으로 나타냅니다.
-타로카드를 나타내는 5개의 키워드 역시 같은 방법으로 각각 768차원의 임베딩 벡터 값으로 나타냅니다.
-일기와 타로카드의 키워드를 코사인 유사도를 통해 유사한 정도를 수치화 합니다.
-5개의 유사도를 평균+최대값이 가장 높은 카드를 선정하여 일기를 대표하는 타로카드로 추천합니다.
-
-
-
-## 2. 비슷한 일기 추천
-
-
-![일기추천](./assets/image/일기추천.JPG)
-
-
-
-사용자가 입력한 일기를 KoSBERT 모델을 통하여 768차원의 임베딩 벡터 값으로 나타냅니다.
-타로카드를 나타내는 5개의 키워드 역시 같은 방법으로 각각 768차원의 임베딩 벡터 값으로 나타냅니다.
-일기와 타로카드의 키워드를 코사인 유사도를 통해 유사한 정도를 수치화 합니다.
-5개의 유사도를 평균+최대값이 가장 높은 카드를 선정하여 일기를 대표하는 타로카드로 추천합니다.
-
-
-## 3. 개발 환경
-
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/JSON Web Tokens-000000?style=for-the-badge&logo=JSON Web Tokens&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <br/> <img src="https://img.shields.io/badge/Amazon EC2-569A31?style=for-the-badge&logo=Amazon EC2&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=NGINX&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/mySql-007ec6?style=for-the-badge&logo=mySql&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <br/>
-<img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
-<img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/zustand-764ABC?style=for-the-badge&logo=react&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Node.js-339939?style=for-the-badge&logo=Node.js&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Scss-cc6699?style=for-the-badge&logo=sass&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/react query-F73F51?style=for-the-badge&logo=react query&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&logo=GitLab&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <br/>
-
-
-
-# 💌프로젝트 산출물
-
-## 프로젝트 진행
-
-### 1. Git flow
-
----
-
-- Git flow 사용을 위해 우아한 형제들의 [gitflow](https://techblog.woowahan.com/2553/)을 참고했습니다.
-- 최종 `master`브랜치에서 프론트엔드와 백엔드의 작업공간을 나누어 `develop`, `dev-front` 두 하위 브랜치를 각각 분기하여 작업합니다.
-- 긴급한 버그발생시 `hotfix`를 수행할 브랜치 또한 따로 분기하였습니다.
-- `develop` 브랜치의 작업 내용을 QA하며 수정할 `release` 브랜치를 분기하여 작업하였습니다.
-
-`commit message`는 git hooks 파일을 활용해 `feature/[지라티켓번호]-[기능명(영어)]`로 통일하여 작성했습니다.<br>
-
-### 2. Jira
-
----
-
-매주 월요일 오전 금주의 진행 이슈를 백로그에 등록했습니다. 전주에 완료하지 못한 이슈나, 앞으로 진행할 이슈들을 추가하였습니다.
-
-- 에픽은 몇 번의 스프린트가 요구되는 큰 업무 덩어리로, `프로젝트 기획/프로젝트 설계/유저 서비스/다이어리 서비스/추천 서비스/인프라`의 6개 분류로 구성했습니다.
-- 스토리는 유저의 요구사항을 명시하는 역할로, 명확한 전달을 위하여 `[BE][경매] 유저는 경매 입찰을 통해 물건을 구매할 수 있다.`와 같이 작성했습니다.
-- 작업현황을 지라에 반영함으로써 각 팀원이 어떤 작업을 하고있는지, 일정에 딜레이가 있는지 파악하여 애자일 원칙을 준수하고자 노력했습니다.<br>
-
-## 프로젝트 설계
-
-### 1. Figma
-
-[![figma](./assets/image/figma.png)](https://www.figma.com/file/QkvXoQ8tU6SJqGmFpRw24H/%EB%B0%A4%ED%8E%B8%EC%A7%80?type=design&node-id=0-1&mode=design&t=8kVHN06rz2Zyp7cj-0)
-<br>
-
-### 2. ERD
-
-![erd](./assets/image/ERD.png)
-<br>
-
-### 3. Architecture
-
-![architecture](./assets/image/architecture.png)
-
-### 3. API 문서
-
-[![api](./assets/image/API명세.png)](https://acoustic-waiter-143.notion.site/API-ef4fbd209fbf45ec8f2b6c2c2e9d4526)
-
-### 4. 포팅 매뉴얼
-
-[포팅 매뉴얼](./assets/porting-manual.md)
-
-# 💌회고
+### 💌회고
 
 - [이승헌(팀장)](https://github.com/heon118) : 팀장으로써 기술적인 부분에서 도움을 주지 못해서 아쉬운 생각이 있었습니다. 백엔드와 빅데이터를 도와주며 함께 공부하고 싶었는데 생각보다 배포가 오래 걸려 그렇게 하지 못한 것이 아쉽고 팀원들에게 미안했습니다. 팀원들이 개발하기 더 편한 환경으로 배포해주지 못했기에 이런 부분을 공부해봐야겠다는 생각을 했습니다.
 - [김효진](https://github.com/hyojin030) : 관심 있던 추천 시스템에 대해 배우고 구현해 볼 수 있어서 좋은 경험이었습니다. 일기를 추천한다는 주제가 흔치 않아 고민하는 시간이 길었지만, 그만큼 평범하지 않아 즐거운 과정이었습니다. 기회가 된다면 사용자의 데이터를 받아 더 맞춤화된 추천으로 만족도 높은 서비스를 개발해 보고 싶습니다.
